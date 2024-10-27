@@ -3,8 +3,8 @@ import React from 'react'
 const Card = ({item,handleAddWantToCook}) => {
     const {id,image,title,description,ingredients,time,calories} = item;
   return (
-    <div >
-        <div className="card w-[360px] shadow border-2">
+    <div className='mx-auto'>
+        <div className="card  shadow border-2">
           <figure className="px-6 pt-6">
             <img
               src={image}

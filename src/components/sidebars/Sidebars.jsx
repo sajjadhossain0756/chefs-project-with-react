@@ -6,7 +6,7 @@ const Sidebars = ({wantToCook,handleCurrentlyCooking,currentCooking,totalTime,to
 
 
   return (
-    <div className='w-1/3 shadow border-2 p-3 rounded-xl'>
+    <div className='w-full lg:w-1/3 shadow border-2 p-3 rounded-xl'>
         {/* want to cook section start here */}
         <div>
             <h1 className='text-2xl font-bold border-b-2 pb-3 text-center'>Want to Cook: {wantToCook.length}</h1>

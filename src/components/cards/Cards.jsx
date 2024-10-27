@@ -10,7 +10,7 @@ const Cards = ({handleAddWantToCook}) => {
         .then(data => setItems(data))
     },[])
   return (
-    <div className='w-2/3 grid gap-6 grid-cols-1 md:grid-cols-2'>
+    <div className='w-full lg:w-2/3 grid gap-6 grid-cols-1 md:grid-cols-2'>
         {
             items.map(item => <Card key={item.id} item={item} handleAddWantToCook = {handleAddWantToCook}></Card>)
         }

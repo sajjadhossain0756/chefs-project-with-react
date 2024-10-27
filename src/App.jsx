@@ -38,7 +38,7 @@ function App() {
       <Header></Header>
       <Bannar></Bannar>
       <OurRecepies></OurRecepies>
-      <div className='flex gap-6'>
+      <div className='flex flex-col lg:flex-row gap-6'>
          <Cards handleAddWantToCook = {handleAddWantToCook}></Cards>
          <Sidebars 
          wantToCook = {wantToCook}
