@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co.com/f2VJsmP/8241884.jpg",
+      "title": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "ingredients": [
+        "200g spaghetti",
+        "100g pancetta",
+        "2 large eggs"
+      ],
+      "time": 25,
+      "calories": 550
+    },
+    {
+      "id": 2, 
+      "image": "https://i.ibb.co.com/WBfdHSD/3847978.jpg",
+      "title": "Grilled Chicken Salad",
+      "description": "A healthy and fresh salad with grilled chicken, greens, and a lemon vinaigrette.",
+      "ingredients": [
+        "200g grilled chicken breast",
+        "100g mixed greens",
+        "1 cucumber"
+      ],
+      "time": 20,
+      "calories": 350
+    },
+    {
+      "id": 3,  
+      "image": "https://i.ibb.co.com/J7x1DDg/bannar.jpg",
+      "title": "Avocado Toast",
+      "description": "Simple and delicious avocado toast, perfect for a quick breakfast or snack.",
+      "ingredients": [
+        "1 ripe avocado",
+        "2 slices of whole-grain bread",
+        "Salt"
+      ],
+      "time": 10,
+      "calories": 250
+    }
+  ]
+  

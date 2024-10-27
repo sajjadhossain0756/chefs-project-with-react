@@ -4,12 +4,12 @@ const Header = () => {
   return (
     <div>
         <nav>
-           <div class="navbar bg-base-100">
-               <div class="navbar-start">
-                <a class=" text-3xl font-bold">Recipe Calories</a>
+           <div className="navbar bg-base-100">
+               <div className="navbar-start">
+                <a className=" text-3xl font-bold">Recipe Calories</a>
               </div>
-              <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1 text-sm font-semibold text-gray-600">
+              <div className="navbar-center hidden lg:flex">
+                <ul className="menu menu-horizontal px-1 text-sm font-semibold text-gray-600">
                   <li><a>Home</a></li>
                   <li><a>Recepies</a></li>
                   <li><a>Abouts</a></li>
@@ -17,13 +17,13 @@ const Header = () => {
                 </ul>
               </div>
               <div className='navbar-end'>
-              <div class=" flex gap-2">
-              <div class="form-control">
-                   <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+              <div className=" flex gap-2">
+              <div className="form-control">
+                   <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
               </div>
-             <div class="dropdown dropdown-end">
-                <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
-                   <div class="w-10 rounded-full">
+             <div className="dropdown dropdown-end">
+                <div tabindex="0" role="button" className="btn btn-ghost btn-circle avatar">
+                   <div className="w-10 rounded-full">
                      <img
                        alt="Tailwind CSS Navbar component"
                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
