@@ -6,7 +6,7 @@ const Header = () => {
         <nav>
            <div className="navbar bg-base-100">
                <div className="navbar-start">
-                <a className=" text-3xl font-bold">Recipe Calories</a>
+                <a className="text-2xl md:text-3xl font-bold">Recipe Calories</a>
               </div>
               <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-sm font-semibold text-gray-600">
